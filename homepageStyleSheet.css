@@ -14,14 +14,41 @@
     align-content: center;
     margin-top: 100px;
 }
+#features-column {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
 #features-grid-section {
     display: inline-grid;
-    grid-column-gap: 50px;
+    grid-column-gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 #feature-block-1 {
     grid-row-start: 1;
     grid-row-end: 3;
-    background-color: gray;
+    background-color: rgb(131, 229, 236);
     width: 350px;
     height: 200px;
+}
+#feature-block-2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(131, 229, 236);
+    width: 350px;
+    height: 200px;
+}
+#news-section {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

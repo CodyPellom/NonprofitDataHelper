@@ -30,14 +30,20 @@ h3,
 h4,
 .header {
     font-family: 'Patua One';
-    text-align: center;
 }
 
 p,
-a {
+a,li {
     font-family: 'Muli';
 }
-
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    transition: all 0.5s;
+    color: gray;
+}
 .text-overview {
     text-align: left;
     width: 80vw;
@@ -54,9 +60,36 @@ footer {
 	align-content: center;
     background-color: rgb(168, 168, 168);
     width: 100%;
-    height: 30vw;
+    height: 40vw;
 }
 #footer-section {
     bottom: 0;
+    display: inline-grid;
+    grid-column-gap: 25px;
+    margin-top: 50px;
+    
+
+}
+#footer-section-links-grid-1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   text-decoration: none;
+   
+}
+#bottom-footer-links-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.bottom-footer-links {
+    
 }
 /* ==== Footer Section End  ==== */
