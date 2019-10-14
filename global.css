@@ -1,0 +1,62 @@
+/* ==== Font Imports Start  ==== */
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Forum|Muli|Patua+One&display=swap');
+
+/* ==== Font Import Ends ==== */
+/* ==== Navbar Section Start  ==== */
+#navbar-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    min-height: 7.5vw;
+    background-color: aliceblue;
+}
+
+.navbar-links {
+    font-family: 'Patua One';
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    margin-right: 5vw;
+}
+
+/* ==== Navbar Section End  ==== */
+/* ==== Body Section Start  ==== */
+h1,
+h2,
+h3,
+h4,
+.header {
+    font-family: 'Patua One';
+    text-align: center;
+}
+
+p,
+a {
+    font-family: 'Muli';
+}
+
+.text-overview {
+    text-align: left;
+    width: 80vw;
+}
+
+/* ==== Body Section End  ==== */
+/* ==== Footer Section Start  ==== */
+footer {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    background-color: rgb(168, 168, 168);
+    width: 100%;
+    height: 30vw;
+}
+#footer-section {
+    bottom: 0;
+}
+/* ==== Footer Section End  ==== */
